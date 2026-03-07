@@ -1,68 +1,140 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Banu Seckin Erkal, Ph.D. - Licensed Clinical Psychologist</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108061403-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-108061403-1');
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108061403-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-108061403-1');
+  </script>
+
   <style>
-	  body {
-	  background-color: #F0F2F5;
-  }
-  #main {
-	  margin: auto;
-	  margin-top: 25px;
-	  width: 50%;
-      position: relative;
-      max-width: 80%;
-      z-index: 1;
-	  padding: 15px;
-      box-shadow: 0rem 0.875rem 1.5rem 0rem rgb(32 46 66 / 6%);
-	  background-color: white;
-	  text-align: center;
-	  },
-  p {
-	  color: #7284A6;
-	      font-family: 'Inter', sans-serif;
-	      font-size: 1em;
-	      line-height: 2;
-	      font-weight: 200;
-  }
-  
-  
-  </style>
+    :root {
+      --text: #111;
+      --muted: #555;
+      --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: var(--text);
+      background: #f5f5f3;
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+    }
 
+    /* Photo */
+    .photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 24px;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    }
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+
+    /* Header */
+    .header { text-align: center; margin-bottom: 36px; }
+    .name {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: .1px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .meta div { margin: 2px 0; }
+
+    /* Divider */
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 28px 0;
+    }
+
+    /* Body text */
+    p {
+      font-size: 16px;
+      line-height: 1.75;
+      color: #333;
+      margin: 0 0 16px;
+    }
+
+    .contact {
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .contact a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 19px;
+      font-weight: 700;
+      margin: 32px 0 10px;
+      color: #111;
+    }
+  </style>
 </head>
 <body>
+  <main class="wrap">
 
-
-
-    <div id="main"> 
-<p><h1>Banu Seckin Erkal, Ph.D., FIPA</h1></p>
-<p><h3>Licensed Clinical Psychologist</h2></p>
-<p><h4>Psychotherapy, Psychoanalysis</h4></p>
-	<p><section>353 Lexington Avenue, Suite 300
-New York, New York 10016</section>
-	<a href="tel:+9143172538">914.317.2538</a></p>
-	<div>
-	
-	</div>
-	<div>
-	</div>
+    <div class="photo">
+      <img src="assets/img/banu-seckin-erkal.png" alt="Banu Seckin Erkal portrait" />
     </div>
 
+    <div class="header">
+      <h1 class="name">Banu Seckin Erkal, Ph.D., FIPA</h1>
+      <div class="meta">
+        <div>Licensed Clinical Psychologist, Psychoanalyst</div>
+        <div>Fellow of the International Psychoanalytic Association</div>
+        <div>In Person + Virtual</div>
+      </div>
+      <div class="contact">
+        <div>353 Lexington Avenue, Suite 300, New York, New York 10016</div>
+        <div><a href="tel:+19143172538">914.317.2538</a></div>
+      </div>
+    </div>
 
+    <hr>
 
+    <p>You are seeking relief from some kind of suffering and pain that is getting harder to bear and to cope with alone. You want to find out what the matter is and what can be done about it. This can be an emerging new issue related to a major life change, a choice, a loss, or a recurrent issue that has been with you on and off at different points in your life. I am here for you to listen to you, to get to know you, to understand what you are going through, and together we will think, feel, imagine and be curious in an emotionally attentive safe space. We will engage in a new, thoughtful and creative conversation over a period of time about what has been going on. Our goal during this time period will be to strive towards a healing process that will deliver you an increased self-awareness, a sense of mastery, growth, success, and fulfillment, hence, an overall relief from the burden of the suffering and pain that brought you to talk therapy in the first place.</p>
+
+    <p>I offer individual talk therapy from a psychodynamic perspective, psychoanalysis as well as psychodynamic group therapy to adolescents, young adults, and adults across a wide variety of issues ranging from life transitions, loss, grief, trauma to mood issues (anxiety, depression), dysfunctional personality and relational tendencies to severe mental illness (bipolar disorder, schizoaffective disorder, schizophrenia). In addition, I work with a range of women's issues (body image, self esteem, infertility, postpartum struggles, sexuality and relationships, parenting demands) and with people seeking treatment for struggling with immigration/acculturation/biculturalism challenges. Finally, I also offer individual and group clinical supervision to mental health professionals.</p>
+
+    <p>Over the years, I have worked with a diverse group of people in treatment in terms of race, ethnicity, culture, class and sexual orientation, and I welcome all in my practice that embraces and promotes a social justice commitment.</p>
+
+    <p>As a bilingual, bicultural therapist, I am happy to conduct all above-mentioned clinical services also in Turkish.</p>
+
+    <h2>Training</h2>
+    <p>Initially trained in Istanbul, Turkey as a clinical psychologist, I am a graduate of the CUNY City College Ph.D. program in Clinical Psychology as well as a graduate of the Institute for Psychoanalytic Training and Research (IPTAR) as a psychoanalyst. In addition to my clinical experience for a decade in Istanbul, I have interned and remained as part of the Psychology Department staff at North Central Bronx Hospital for the past fifteen years as a clinician as well as teaching and supervising psychology graduate students during their internship training at this site. Until recently, I have been the Director of the North Central Bronx Hospital's Partial Hospitalization Program (PHP) working primarily with severe persistent mental illness, mood and psychotic spectrum disorders, at a day hospital setting for the past six years. I am also interested in applied psychoanalysis and have written and published about the use of psychoanalytic ideas in exploring a variety of topics ranging from the arts to social issues.</p>
+
+  </main>
 </body>
 </html>
